@@ -1,0 +1,15 @@
+h1 {text-align:center; padding-top:80px;
+    color:#666; font-weight:normal; font-size:1.6rem;}
+h2 {text-align:center;color:#8288d3; 
+    padding: 3px 0 25px 55px ;font-weight:normal; font-size:0.9rem;}
+#image {width:60%; margin:0 auto; 
+    text-align:center;} 
+    /* border-bottom:1px solid #8288d3;} */
+hr  {width:70%; margin-top:10px; margin-bottom:50px;}
+    #image ul {width:100%; padding:20px 5px;} 
+#image ul li {width:100%;}
+#image ul li img {width:400px; border-radius:50%;}
+p {text-align: center; font-size:1rem; font-style:italic;
+                  padding:85px 0;
+                  color:#9e9a9a;}
+                  /*border:1px solid #979cda;
