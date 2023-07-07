@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* *, *::after, *:before {box-sizing: border-box;} */
+/* 
+#main {width:485px; margin:0 auto; position:relative;
+        border: 1px solid #666;} */
+.device {position:relative; width:414px; height:682px;
+        border: 1px solid #cea9c0;
+        padding:37px 10px 10px 10px;
+        margin-bottom: 10px; 
+        border:3px solid #c9abab;
+        background: #dabdbd;
+        box-shadow: 0 0 50px 10px rgba(255,255,255,0.4);
+        border-radius: 40px;
+        left: 50%;
+        top: 0px;
+        transform: translateX(-50%);
+        z-index: 2;}
+
+.device::before, .device:after {content:"";position: absolute;
+                                z-index:2;
+                                border: 1px solid #666;}
+
+.device::before {width:11%; height:6px; top:18px; left:50%;
+                transform:translateX(-50%);
+                border: 2px solid #666;
+                border-radius: 10px; background:#2f2f2f;
+                z-index:  5;}
+
+/* .device:after {width:42px; height:42px; /* 기기 아래 홈 버튼
+                border-radius:50%;
+                left:50%;
+                transform: translateX(-50%); 
+                bottom:27px;
+                border: 2px solid #666;} */
+
+
+
+.device:after {width: 381px; height: 647px;
+                border: 8px solid #333;
+                background: #fff;
+                border-radius: 34px;
+                top: 6px;
+                left: 5px;
+                z-index:-1;}
+
+.device iframe {width:380px; height:625px;
+                margin-right:auto; 
+                margin-left:auto; 
+                background: #fff;
+                border: none;
+                border-radius: 34px;
+                transform: translate(-1px,-1px);
+                display: block;
+                z-index: 4;}  
+                
+/* .device:after {
+        width: 180px;
+        height: 32px;
+        top:5px;
+        background: #333;
+        border-radius: 0 0 30px 30px;
+        z-index: 4;} */
