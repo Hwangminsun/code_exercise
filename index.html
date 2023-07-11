@@ -1,321 +1,285 @@
 <!DOCTYPE html>
-<html lang="kr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>웹퍼블리셔 황민선 포트폴리오</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/main.css" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
     <script src="js/jquery-1.11.2.min.js"></script>
-    <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/main.js"></script>
-    <!-- <script src="js/jquery.fullPage.js"></script> -->
-    <script src="https://kit.fontawesome.com/dbb7afa741.js" crossorigin="anonymous"></script>
-  </head>
-
-  <body>
-    <!-- header -->
-    <header class="cf">
-      <img src="img/po6.png" class="portfolio" alt="icon" />
-      <h1>Portfolio</h1>
-      <ul class="top_menu cf">
-        <li class="on">
-          <a href="#wrap_1">Project</a>
-        </li>
-        <li>
-          <a href="#project2">Code</a>
-        </li>
-        <li>
-          <a href="#project3">About</a>
-        </li>
-      </ul>
-    </header>
-
-    <!-- top 으로 가기 -->
-    <div id="go_top"></div>
-
-    <!-- 내용 시작 -->
-    <main id="content">
-      <!-- 1page -->
-      <section id="intro">
-
-        <div id="photo">
-          <div>
-            <img src="img/favorite/sky_sun.jpg" alt="하늘사진" />
-          </div>
-        </div> <!-- photo 끝 -->
-
-        <div id="right_box"> 
-          <ul id="subject">
-            <li><a href="/"></a></li>
-            <li><a href="">Tapered Coffee</a></li>
-            <li><a href="">Cocodor</a></li>
-            <li><a href="">React Page</a></li>
-            <li><a href="">Team Project</a></li>
-            <li><a href="">Code_Exercise</a>
-              
-                <!--<p><a href="">Slick Colorbox</a></p>
-                <p><a href="">More Image</a></p>
-                <p><a href="">QuickMenu Scroll</a></p>
-                <p><a href="">Swiper slider</a></p>-->
-             
-            </li>
-            <li><a href="">About me</a></li>
-          </ul>
-        </div> <!--  right_box 끝 -->
-        <div class="scroll_down">
-          <a href="#" class="view_more" onclick="return false">View more  
-          </a>
-      </div>
-      </section>
-
-     
-
-      <!-- 2page -->
-      <section id="ban">
-        <div id="wrap_1">
-          <span class="background"></span>
-        <div class="first_box">
-          <div class="scrollslide">
-            <div class="taper_pc">
-              <img src="img/taper_all_capture.png" alt="반응형 pc버전 메인화면" />
-            </div>
-          </div>
+</head>
+<body>
+    <section id="intro">
+        <div id="left_wrap">
+            <div id="left">
+                <ul class="top_1">
+                    <li>Tapered Coffee</li>
+                    <li>Cocodor</li>
+                    <li>React Page</li>
+                    <li>Team Project</li>
+                    <li>Code_Exercise</li>
+                    <li>PROJECT</li>
+                </ul>
+                <ul class="top_2">
+                    <li>Slick Colorbox</li>
+                    <li>Smooth Quickmenu</li>
+                    <li>Jquery More Button</li>
+                    <li>Vanila Javascript slide</li>
+                    <li>App Design</li>
+                    <li>CODE_EXERCISE</li>
+                </ul>
+                <ul class="top_3">
+                    <li class="li_bottom">PROFILE</li> 
+                </ul>
+            </div> <!-- left -->
+            <h1>Portfolio.</h1>
+        </div> <!-- left_wrap -->
+    <div id="right">
+        <div>
+            <p>치열하게</p>
+            <p>고민하고</p> 
+            <p>즐겁게</p> 
+            <p>일하는</p> 
+            <p>I</p> 
+            <p>T</p> 
+            <p>개발자가</p> 
+            <p>되고</p> 
+            <p>싶습니다.</p>    
         </div>
-
-        <!-- 반응형 설명 -->
-        <div class="second_box">
-          <div class="tapered">
-            <span class="number">01</span>
-            <span class="site_name">Tapered coffee _테이퍼드 커피</span>
-            <span class="span_group">반응형 / 메인, 서브(갤러리, 게시판), 회원가입, 로그인</span>
-              <div class="span_group1">
-                <span>테이퍼드 커피의 반응형 웹페이지입니다.</span>
-                <span>기존의 인스타그램을 참고하여</span>
-                <span>사진과 간략한 내용을 담아 제작했습니다.</span>
-              </div>
-              <div class="button_group">
-                <button class="site_visit" onclick="window.open('http://maysun7.dothome.co.kr')">VIEW<span class="bg"></span></button>
-                <button class="site_making">기획서<span class="bg"></span></button>
-              </div>
-            <!-- <button class="code2">Figma</button> -->
-          </div>         
+        <div>
+            <!-- <p>황민선</p> -->
         </div>
-      </div>
-    </section> <!-- 반응형 종료 -->
+    </div> <!-- right -->
+</section> <!-- intro -->
 
-<!-- 3page -->
-<section id="mobile">
-  <div id="wrap_2">
-    <span class="background_1"></span>
-  <div class="first_box_1">
-    <div class="scrollslide_1">
-      <div class="coco_mo">
-        <img src="img/coco_all_1.png" alt="모바일웹 메인화면" />
-      </div>
+<header>
+    <div id="header_wrap">
+        <div id="title_wrapper">
+            <h2 class="first_t">PORTFOLIO</h2>
+            <h2 class="second_t block_no">P.</h2>
+        </div>
+        <ul class="nav">
+            <li><a href="#">PROJECT</a></li>
+            <li><a href="#">CODE_EXERCISE</a></li>
+            <li><a href="#">PROFILE</a></li>
+        </ul>
     </div>
-  </div>
+</header> <!-- header -->
 
-  <!-- 모바일웹 설명 -->
-  <div class="second_box_1">
-    <div class="coco">
-      <span class="number">02</span>
-      <span class="site_name">Cocodor _코코도르 쇼핑몰</span>
-      <span class="span_group2">모바일 웹 / 메인, 서브(상품카테고리, 상세페이지), 회원가입, 로그인</span>
-        <div class="span_group3">
-          <span>코코도르의 모바일 웹 쇼핑몰입니다.</span>
-          <span>메인 화면에 많은 정보 보다는, 이미지와 간결한 설명을 활용했으며</span>
-          <span>중복된 내용 최소화 및 필요하지 않다고 생각되는 메뉴를 수정하여 리뉴얼했습니다.</span>
-        </div>
-        <div class="button_group">
-          <button class="site_visit" onclick="window.open('http://icelatte.dothome.co.kr/','pf','toolbar=no,location=no,status=no,menubar=no,resizable=no,scrollbars=yes,width=500,height=715,left=657,top=100');">VIEW<span class="bg"></span></button>
-          <button class="site_making">기획서<span class="bg"></span></button>
-        </div>
-      <!-- <button class="code2">Figma</button> -->
-    </div>         
-  </div>
-</div>
-</section> <!-- 모바일웹 종료 -->
+<div id="main_wrap">
+    <section id="first_page">
+        <h3>Projects</h3> 
+        
+        <div id="project">
 
-<!-- 4page -->
-<section id="react_full">
-  <div id="wrap_4">
-    <span class="background_3"></span>
-  <div class="first_box_3">
-    <div class="scrollslide_3">
-      <div class="react_pc">
-        <img src="img/no_image.png" alt="리액트 fullpage PC버전" />
-      </div>
-    </div>
-  </div>
+            <ul class="small_list">
+                <li><a href="">All</a></li>
+                <li><a href="">Personal</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">React</a></li>
+            </ul> <!-- small_list -->
 
-  <!-- fullpage 설명 -->
-  <div class="second_box_3">
-    <div class="fullpage">
-      <span class="number">03</span>
-      <span class="site_name">React page</span>
-      <span class="span_group6">PC ver.</span>
-        <div class="span_group7">
-          <span>React / fullpage.js 를 활용한 페이지입니다.</span>
-          <span>기존의 사이트 및 이미지를 참고하여</span>
-          <span>리액트를 사용하여 fullpage 스크롤 플러그인을 적용한 페이지입니다.</span>
-        </div>
-        <div class="button_group">
-          <button class="site_visit" onclick="window.open('http://maysun7.dothome.co.kr')">VIEW<span class="bg"></span></button>
-          <button class="site_making">기획서<span class="bg"></span></button>
-        </div>
-      <!-- <button class="code2">Figma</button> -->
-    </div>         
-  </div>
-</div>
-</section> <!-- react fullpage 종료 -->
+            <ul class="project_list">
 
-<!-- 5page  -->
-<section id="team">
-  <div id="wrap_3">
-    <span class="background_2"></span>
-  <div class="first_box_2">
-    <div class="scrollslide_2">
-      <div class="team_pc">
-        <img src="img/arts_capture.png" alt="팀프로젝트 예술의전당 pc버전 메인화면" />
-      </div>
-    </div>
-  </div>
+                <li>
+                    <figure>
+                        <a href="">
+                            <img src="images/taper_cap.png" alt="">
+                        </a>
+                        <figcaption>
+                            TAPERED COFFEE<span>테이퍼드커피 반응형</span>
+                        </figcaption>
+                    </figure>
+                </li>
 
-  <!-- team 설명 -->
-  <div class="second_box_2">
-    <div class="arts">
-      <span class="number">04</span>
-      <span class="site_name">Team Project _예술의 전당</span>
-      <span class="span_group4"> PC ver. / 메인, 서브(공연일정, 공연 상세정보)</span>
-      <span class="span_group4-1">회원가입 및 로그인 페이지(HTML, CSS 구현)</span> 
-      <div class="span_group5">
-          <span>예술의 전당 PC 버전 웹페이지입니다.</span>
-          <span>팀 프로젝트로 진행했으며, 제가 참여한 부분은 메인 페이지의 슬릭 슬라이더 2개 연동,
-            주간 공연 일정 섹션의 left, up, down 무한 슬라이드, 풀메뉴 슬라이드, 검색 토글 및 퀵메뉴
-          구현입니다.</span>
-        </div>
-        <div class="button_group">
-          <button class="site_visit" onclick="window.open('https://sonhanbin.github.io/seoul_arts_center')">VIEW<span class="bg"></span></button>
-          <button class="site_making">기획서<span class="bg"></span></button>
-        </div>
-      <!-- <button class="code2">Figma</button> -->
-    </div>         
-  </div>
-</div> <!-- wrap3 종료 -->
-</section> <!-- team 종료 -->
+                <li>
+                    <figure>
+                        <a href="" class="mobile">
+                            <img  class="mobile" src="images/coco_cap1.png" alt="">
+                        </a>
+                        <figcaption>
+                            코코도르<span>Cocodor Mobile Web</span>
+                        </figcaption>
+                    </figure>
+                </li>
 
-<!-- 6page -->
-<section id="code">
-  <div id="code_wrap">
-  <p>Code_Exercise</p>
-  <ul class="exercise">   
-    <li>
-      <a href="https://hwangminsun.github.io/code_exercise/slick_youtube.html">
-        <figure>
-          <figcaption>Slick Colorbox / Youtube</figcaption>
-          <img src="img/slick_video_cap_size_modi_2.png" alt="슬릭 컬러박스">
-        </figure>
-      </a>
-    </li>
-    <li>
-      <a href="https://hwangminsun.github.io/code_exercise/quick.html">
-        <figure>
-          <figcaption>Smooth Quickmenu</figcaption>
-          <img src="img/quick_cap.png" alt="부드럽게 움직이는 퀵메뉴">
-        </figure>
-      </a>
-    </li>
-    <li>
-      <a href="https://hwangminsun.github.io/code_exercise/more.html">
-        <figure>
-          <figcaption>Jquery More Button</figcaption>
-          <img src="img/more_cap.png" alt="제이쿼리 more">
-        </figure>
-      </a>
-    </li>
-    <li>
-      <a href="javascript:void(0)">
-        <figure>
-          <figcaption>Vanila Javascript slide / arrow visible</figcaption>
-          <img src="" alt="">
-        </figure>
-      </a>
-    </li>
-    <li>
-      <a href="javascript:void(0)">
-        <figure>
-          <figcaption>React Movie List  / JSON</figcaption>
-          <img src="" alt="">
-        </figure>
-      </a>
-    </li>
-    <li>
-      <a href="javascript:void(0)">
-        <figure>
-          <figcaption>React App / To Do List</figcaption>
-          <img src="" alt="">
-        </figure>
-      </a>
-    </li>
-  </ul>
-</div>
-</section>
+                <li>
+                    <figure>
+                        <a href="">
+                            <img src="images/arts_cap.png" alt="">
+                        </a>
+                        <figcaption>
+                            TEAM PROJECT<span>예술의 전당 PC Ver.</span>
+                        </figcaption>
+                    </figure>
+                </li>
 
+                <li>
+                    <figure>
+                        <a href="">
+                            <img src="images/react_pc_cap.png" alt="">
+                        </a>
+                        <figcaption>
+                            REACT PAGE<span>리액트 PC Ver.</span>
+                        </figcaption>
+                    </figure>
+                </li>
 
+                <li>
+                    <figure>
+                        <a href="">
+                            <img src="images/no_image_1.png" alt="">
+                        </a>
+                        <figcaption>
+                            REACT MOVIE LIST<span>JSON 활용 클론코딩</span>
+                        </figcaption>
+                    </figure>
+                </li>
 
+                <li>
+                    <figure>
+                        <a href="" class="mobile">
+                            <img class="mobile" src="images/coco_cap1.png" alt="">
+                        </a>
+                        <figcaption>
+                            TO DO LIST<span>React App</span>
+                        </figcaption>
+                    </figure>
+                </li>
+            
+            </ul>
+        </div> <!-- project -->
+    </section> <!-- first_page -->
 
-<!--  -->
-      <!-- 리액트 -->
-      <ul>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li><a href=""></a></li>
-      </ul>
+    <section id="second_page">
+        <h3>Code_exercise</h3>
+        <div id="code_exercise">
 
-      <!-- 모바일 -->
-      <ul>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li><a href=""></a></li>
-      </ul>
+            <ul class="small_list">
+                <li><a href="">All</a></li>
+                <li><a href="">SlickColorbox</a></li>
+                <li><a href="">Quickmenu</a></li>
+                <li><a href="">More Button</a></li>
+                <li><a href="">Vanila Javascript Slide</a></li>
+                <li><a href="">App Design</a></li>
+            </ul> <!-- small_list -->
 
-      <!-- 팀 -->
-      <ul>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li><a href=""></a></li>
-      </ul>
+            <ul class="code_exercise_list">
 
-      <!-- 깃허브 -->
-      <ul>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-      </ul>
+                <li>
+                    <figure>
+                        <a href="https://hwangminsun.github.io/code_exercise/slick_youtube.html">
+                            <img src="images/slick_video_cap_size.png" alt="">
+                        </a>
+                        <figcaption>
+                            Slick Colorbox
+                        </figcaption>
+                    </figure>
+                </li>
 
-      <!-- 프로필 -->
-      <ul>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-      </ul>
-    </section>
-    <!-- content 끝 -->
+                <li>
+                    <figure>
+                        <a href="https://hwangminsun.github.io/code_exercise/quick.html">
+                            <img src="images/quick_cap.png" alt="">
+                        </a>
+                        <figcaption>
+                            Smooth Quickmenu
+                        </figcaption>
+                    </figure>
+                </li>
 
-    <footer>code &amp; design by oaetmeal</footer>
-  </body>
+                <li>
+                    <figure>
+                        <a href="https://hwangminsun.github.io/code_exercise/more.html">
+                            <img src="images/more_cap.png" alt="">
+                        </a>
+                        <figcaption>
+                            Jquery More Button
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure>
+                        <a href="https://hwangminsun.github.io/code_exercise/slide_show.html">
+                            <img src="images/vanila_slide.png" alt="">
+                        </a>
+                        <figcaption>
+                            Vanila Javascript Slide
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure>
+                        <a href="">
+                            <img src="images/Group_7.png" alt="">
+                        </a>
+                        <figcaption>
+                            App Design<span>데일리 제로웨이스트 활동 기록 앱</span>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div> <!-- code_exercise -->
+    </section> <!-- second_page -->
+
+    <section id="third_page">
+        <h3>Profile</h3>
+        <div id="profile"> <!-- grid column 2 -->
+            <ul class="profile_list_1"> <!-- grid 1 -->
+                <!-- ul flex li width : 50% -->
+                <li>황민선</li>
+                <li></li>
+                <li>Email</li>
+                <li><a href="mailto:dai0176@hanmail.net">dai0176@hanmail.net</a></li>
+                <li>학력</li>
+                <li>미림여자정보과학고등학교 인터넷과</li>
+                <li>자격증</li>
+                <li>컴퓨터 활용능력 1급 (필기)</li>
+                <li></li>
+                <li>컴퓨터 활용능력 2급</li>
+                <li></li>
+                <li>워드프로세서 2급</li>
+                <li></li>
+                <li>정보처리기능사</li>
+                <li>HTML</li>
+                <li class="percent"><a><span></span></a>90%</li>
+                <li>CSS</li>
+                <li class="percent eight"><a><span></span></a>80%</li>
+                <li>Javascript</li>
+                <li class="percent seven"><a><span></span></a>70%</li>
+                <li>Jquery</li>
+                <li class="percent eight"><a><span></span></a>80%</li>
+                <li>PHP</li>
+                <li class="percent eight"><a><span></span></a>80%</li>
+                <li>React</li>
+                <li class="percent seven"><a><span></span></a>70%</li>
+            </ul>
+            <ul class="profile_list_2"> <!-- grid 2 -->
+                 <!-- ul flex li width : 50% -->
+                <li><span>Favorite</span></li>
+                <li><span>#피아노 #음악 #공연 #영화 #라디오 #책
+                    #걷기 #떡볶이 #라떼 #귀여운 모든 것</span>
+                </li>
+                <li><span>Good!</span></li>
+                <li><span>#피아노 #손글씨 #맛있게 먹기 #집중
+                    #몰입 #포기하기 #최선의 최선을 다하기</span>
+                </li>
+                <li><span>Goal</span></li>
+                <li><span>#프론트엔드</span>
+                </li>
+                <li></li>
+                <li>
+                </li>
+            </ul>
+        </div> <!-- profile -->
+    </section> <!-- third_page -->
+</div> <!-- main_wrap -->
+
+<footer>
+    footer
+</footer>
+</body>
 </html>
