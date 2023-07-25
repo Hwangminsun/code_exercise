@@ -22,4 +22,16 @@ p span:last-child { color:#8d93df;}
 .indicator .on a {background: #d47b7b;}
 .indicator li a {display:block; background:#eee; width:15px; height:15px;
                 border-radius:50%; margin-left:2px;}
-
+footer {
+      position: absolute;
+      width: 100%;
+      
+      left: 0;
+      bottom: 0;
+      height: 50px;
+      line-height: 50px;
+      border-top: 1px solid #b4b1b1;
+      color: #969393;
+      font-size: 0.9rem;      
+      text-align: center;
+      z-index: 0; }
